@@ -1,0 +1,11 @@
+{
+    "thread": 50,
+    "timeout": 10,
+    "max_ms": 5000,
+    "import": [
+        "proxies.txt"
+    ],
+    "export": "good_proxies.txt",
+    "host_check_url": "https://www.google.com",
+    "ip_check_url": "https://api.ipify.org?format=json"
+}
